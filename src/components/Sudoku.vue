@@ -6,7 +6,7 @@
       <v-btn @click="init()" color="primary">Generate</v-btn>
     </div>
 
-    <div class="flex-grow-1"></div>
+    <div class="flex-grow-1 d-block d-md-none"></div>
 
     <div class="sudoku">
       <div class="sudoku-inner-container">
@@ -342,7 +342,7 @@ export default {
 
 .sudoku-container {
   margin: auto;
-  max-width: 800px;
+  max-width: 700px;
   width: 100%;
   padding: 15px
 }
