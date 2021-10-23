@@ -6,5 +6,7 @@ module.exports = {
   pwa: {
     name: 'Sudoku',
     themeColor: '#000000'
-  }
+  },
+
+  publicPath: ''
 }
